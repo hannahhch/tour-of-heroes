@@ -1,4 +1,6 @@
 
+
+
 <!-- only displays once a hero has been selected -->
 <div *ngIf="hero">
     <h2>{{hero.name | uppercase}} Details</h2>
@@ -9,3 +11,5 @@
       </label>
     </div>
   </div>
+
+  <button (click)="goBack()">go back</button>
